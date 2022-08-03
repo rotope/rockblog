@@ -3,10 +3,10 @@
 html,body{
     height: 100%;
     margin: 0;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/80/Hellfest2017Sabaton_01.jpg");
+    background-image: url("https://c.tenor.com/5qbE4Sezr78AAAAd/concert-sabaton.gif");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto 150vh;
 }
 header{
   margin: 0;
@@ -16,17 +16,11 @@ header{
   grid-template-rows: auto auto auto;
   
 }
-.contenedor-titulo-header{
+.contenedor-logo{
   margin: auto;
   text-align: center;
   grid-column-start: 2;
   grid-row-start: 2;
-}
-.titulo-header{
-    font-family: 'Metal Mania';
-    font-size: 4em;
-    background-image: linear-gradient(#865825,#f9d190);
-    opacity: 80%;
 }
 .contenedor-header{
   text-align: center;
@@ -52,6 +46,7 @@ header{
 }
 .menu-header>ul{
   text-align: center;
+  padding: 0;
 }
 .menu-header a li:hover{
     animation: pulse 2s infinite;
@@ -68,3 +63,12 @@ header{
       transform: scale(1);
     }
   }
+@media only screen and (max-width: 768px) {
+  .menu-header li{
+    width: 25%;
+    margin: 1em;
+  }
+  html,body{
+    background-size: auto 180vh;
+  }
+}
