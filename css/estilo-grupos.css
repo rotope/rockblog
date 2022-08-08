@@ -1,8 +1,11 @@
 body{
     margin: 0;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-pared-ladrillo-rustico_53876-92955.jpg?w=740&t=st=1659612406~exp=1659613006~hmac=400da2fac84c0b7ff825e64ebcf84c5c6d8139209fb49e9b9def1716fa3c51da);
+    background-repeat: no-repeat;
+    background-size: auto 140vh;
 }
 .encabezado{
-    margin: 0;
+    margin-bottom: 1.5em;
     padding: 1em;
     background-image: linear-gradient(#2c2c2c,#484848);
     display: grid;
@@ -43,6 +46,94 @@ body{
       animation: pulse 2s infinite;
       transition: .4s;
   }
+  .titulo-grupos{
+    margin: auto;
+  }
+  .titulo-grupos h1{
+    background-image: linear-gradient(#865825, #f9d190); 
+    margin: auto;
+    text-align: center;
+    width: 10%;
+    padding: 0.3em;
+  }
+  .sabaton-logo{
+    height: 8em;
+    position: fixed;
+    top: 34%;
+    left: 40.5%;
+  }
+  .powerwolf-logo{
+    height: 6em;
+    position: fixed;
+    top: 50%;
+    left: 15%;
+  }
+  .whispered-logo{
+    height: 6em;
+    position: fixed;
+    top: 55%;
+    left: 39%;
+  }
+  .warcry-logo{
+    height: 5em;
+    position: fixed;
+    top: 50%;
+    left: 65%;
+  }
+  .korn-logo{
+    height: 6em;
+    position: fixed;
+    top: 65%;
+    left: 10%;
+  }
+  .slipknot-logo{
+    height: 6em;
+    position: fixed;
+    top: 70%;
+    left: 25%;
+  }
+  .systemofadown-logo{
+    height: 9em;
+    position: fixed;
+    top: 70%;
+    left: 40%;
+  }
+  .muse-logo{
+    height: 5em;
+    position: fixed;
+    top: 75%;
+    left: 52%;
+  }
+  .beartooth-logo{
+    height: 6em;
+    position: fixed;
+    top: 70%;
+    left: 70%;
+  }
+  .archenemy-logo{
+    height: 7em;
+    position: fixed;
+    top: 30%;
+    left: 22%;
+  }
+  .threedaysgrace-logo{
+    height: 6em;
+    position: fixed;
+    top: 82%;
+    left: 9%;
+  }
+  .rammstein-logo{
+    height: 8em;
+    position: fixed;
+    top: 30%;
+    left: 62%;
+  }
+  .saratoga-logo{
+    height: 6em;
+    position: fixed;
+    top: 85%;
+    left: 68%;
+  }
   @keyframes pulse {
       0% {
         transform: scale(1);
@@ -55,15 +146,24 @@ body{
       }
     }
   @media only screen and (max-width: 768px) {
+    html, body{
+      width: 100%;
+      background-size: 27em 100em;
+      background-position-x: 0em;
+      background-position-y: 7em;
+    }
     .encabezado{
       display: grid;
       grid-template-columns: auto auto;
       grid-template-rows: auto auto;
-      width: 100%;
+      width: 92.391%;
+      margin: 0;
+      margin-bottom: 1em;
     }
     .contenedor-logo{
       grid-column-start: 1;
       grid-row-start: 1;
+      width: 100%;
     }
     .menu-header{
       grid-column-start: 1;
@@ -72,5 +172,71 @@ body{
     }
     .menu-header li{
       width: 40%;
-    }  
+    }
+    .titulo-grupos{
+      margin: auto;
+      width: 80%;
+      transform: translate(-3px);
+    }
+    .titulo-grupos h1{
+      width: auto;
+    }
+    .bandas{
+      width: 100%;
+    }
+    .bandas div{
+      width: 100%;
+    }
+    .sabaton-logo{
+      position: relative;
+      transform: translate(-80px,5px);
+    }
+    .powerwolf-logo{
+      position: relative;
+      transform: translate(-10px,5px);
+    }
+    .archenemy-logo{
+      position: relative;
+      transform: translate(20px,5px);
+    }
+    .rammstein-logo{
+      position: relative;
+      transform: translate(-120px,10px);
+    }
+    .whispered-logo{
+      position: relative;
+      transform: translate(-100px,5px);
+    }
+    .warcry-logo{
+      position: relative;
+      transform: translate(-220px,5px);
+    }
+    .slipknot-logo{
+      position: relative;
+      transform: translate(20px,5px);
+    }
+    .korn-logo{
+      position: relative;
+      transform: translate(90px,5px);
+    }
+    .systemofadown-logo{
+      position: relative;
+      transform: translate(-10px,1px);
+    }
+    .muse-logo{
+      position: relative;
+      transform: translate(-80px,5px);
+    }
+    .saratoga-logo{
+      position: relative;
+      transform: translate(-180px,5px);
+    }
+    .threedaysgrace-logo{
+      position: relative;
+      transform: translate(50px,15px);
+    }
+    .beartooth-logo{
+      position: relative;
+      transform: translate(-165px,20px);
+    }
   }
