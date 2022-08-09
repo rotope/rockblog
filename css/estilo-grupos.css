@@ -1,15 +1,22 @@
 body{
     margin: 0;
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-pared-ladrillo-rustico_53876-92955.jpg?w=740&t=st=1659612406~exp=1659613006~hmac=400da2fac84c0b7ff825e64ebcf84c5c6d8139209fb49e9b9def1716fa3c51da);
-    background-repeat: no-repeat;
-    background-size: auto 140vh;
-}
+  }
 .encabezado{
     margin-bottom: 1.5em;
     padding: 1em;
     background-image: linear-gradient(#2c2c2c,#484848);
     display: grid;
     grid-template-columns: 20% auto;
+}
+.bg{
+  min-width: 100%;
+  min-height: 1024px;
+  width: auto;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  z-index: -1;
 }
 .contenedor-logo{
     grid-column-start: 1;
@@ -160,6 +167,16 @@ body{
       margin: 0;
       margin-bottom: 1em;
     }
+    .bg{
+      min-width: 100%;
+      min-height: 1024px;
+      width: auto;
+      height: 100%;
+      top: 0;
+      left: -450px;
+      position: fixed;
+      z-index: -1;
+    }    
     .contenedor-logo{
       grid-column-start: 1;
       grid-row-start: 1;
@@ -209,7 +226,7 @@ body{
     }
     .warcry-logo{
       position: relative;
-      transform: translate(-220px,5px);
+      transform: translate(-200px,5px);
     }
     .slipknot-logo{
       position: relative;
