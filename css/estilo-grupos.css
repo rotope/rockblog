@@ -154,7 +154,6 @@ body{
     }
   @media only screen and (max-width: 768px) {
     html, body{
-      width: 100%;
       background-size: 27em 100em;
       background-position-x: 0em;
       background-position-y: 7em;
@@ -163,7 +162,6 @@ body{
       display: grid;
       grid-template-columns: auto auto;
       grid-template-rows: auto auto;
-      width: 92.391%;
       margin: 0;
       margin-bottom: 1em;
     }
