@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 body{
   margin: 0;
 }
@@ -14,9 +15,12 @@ min-height: 1024px;
 width: auto;
 height: 100%;
 top: 0;
-left: 0;
+left: -16%;
 position: fixed;
 z-index: -1;
+}
+.mbg{
+  display: none;
 }
 .contenedor-logo{
   grid-column-start: 1;
@@ -57,6 +61,7 @@ text-align: center;
   margin: auto;
 }
 .titulo-grupos h1{
+  font-family: 'Metal Mania', cursive;
   background-image: linear-gradient(#865825, #f9d190); 
   margin: auto;
   text-align: center;
@@ -64,82 +69,82 @@ text-align: center;
   padding: 0.3em;
 }
 .sabaton-logo{
-  height: 8em;
+  height: 6.5em;
   position: fixed;
-  top: 34%;
-  left: 40.5%;
+  top: 30%;
+  left: 42.5%;
 }
 .powerwolf-logo{
   height: 6em;
   position: fixed;
-  top: 50%;
-  left: 15%;
+  top: 60%;
+  left: 15.5%;
 }
 .whispered-logo{
   height: 6em;
   position: fixed;
-  top: 55%;
-  left: 39%;
+  top: 76%;
+  left: 16%;
 }
 .warcry-logo{
   height: 5em;
   position: fixed;
-  top: 50%;
-  left: 65%;
+  top: 66%;
+  left: 75%;
 }
 .korn-logo{
   height: 6em;
   position: fixed;
-  top: 65%;
-  left: 10%;
+  top: 55%;
+  left: 2%;
 }
 .slipknot-logo{
   height: 6em;
   position: fixed;
-  top: 70%;
-  left: 25%;
+  top: 43%;
+  left: 18.5%;
 }
 .systemofadown-logo{
   height: 9em;
   position: fixed;
-  top: 70%;
-  left: 40%;
+  top: 20%;
+  left: 18.5%;
 }
 .muse-logo{
-  height: 5em;
+  height: 4.3em;
   position: fixed;
   top: 75%;
-  left: 52%;
+  left: 2.5%;
 }
 .beartooth-logo{
   height: 6em;
   position: fixed;
-  top: 70%;
-  left: 70%;
+  top: 47%;
+  left: 71%;
 }
 .archenemy-logo{
   height: 7em;
   position: fixed;
-  top: 30%;
-  left: 22%;
+  top: 53%;
+  left: 41.7%;
 }
 .threedaysgrace-logo{
   height: 6em;
   position: fixed;
-  top: 82%;
-  left: 9%;
+  top: 25%;
+  left: 72%;
 }
 .rammstein-logo{
   height: 8em;
   position: fixed;
-  top: 30%;
-  left: 62%;
+  top: 72%;
+  left: 43%;
 }
 .saratoga-logo{
-  height: 6em;
+  height: 7em;
   position: fixed;
-  top: 85%;
-  left: 68%;
+  top: 82%;
+  left: 72%;
 }
 @keyframes pulse {
     0% {
@@ -166,15 +171,19 @@ text-align: center;
     margin-bottom: 1em;
   }
   .bg{
+    display: none;
+  }
+  .mbg{
+    display: inline-block;
     min-width: 100%;
-    min-height: 1024px;
-    width: auto;
-    height: 100%;
-    top: 0;
-    left: -450px;
-    position: fixed;
-    z-index: -1;
-  }    
+      min-height: 1024px;
+      width: auto;
+      height: 100%;
+      top: 0;
+      left: -210px;
+      position: fixed;
+      z-index: -1;
+  }
   .contenedor-logo{
     grid-column-start: 1;
     grid-row-start: 1;
@@ -208,23 +217,23 @@ text-align: center;
   }
   .powerwolf-logo{
     position: relative;
-    transform: translate(-10px,5px);
+    transform: translate(-35px,5px);
   }
   .archenemy-logo{
     position: relative;
-    transform: translate(20px,5px);
+    transform: translate(-77px,5px);
   }
   .rammstein-logo{
     position: relative;
-    transform: translate(-120px,10px);
+    transform: translate(-65px,10px);
   }
   .whispered-logo{
     position: relative;
-    transform: translate(-100px,5px);
+    transform: translate(-20px,0px);
   }
   .warcry-logo{
     position: relative;
-    transform: translate(-200px,5px);
+    transform: translate(-250px,0px);
   }
   .slipknot-logo{
     position: relative;
@@ -232,26 +241,26 @@ text-align: center;
   }
   .korn-logo{
     position: relative;
-    transform: translate(90px,5px);
+    transform: translate(110px,5px);
   }
   .systemofadown-logo{
     position: relative;
-    transform: translate(-10px,1px);
+    transform: translate(55px,1px);
   }
   .muse-logo{
     position: relative;
-    transform: translate(-80px,5px);
+    transform: translate(105px,5px);
   }
   .saratoga-logo{
     position: relative;
-    transform: translate(-180px,5px);
+    transform: translate(-240px,5px);
   }
   .threedaysgrace-logo{
     position: relative;
-    transform: translate(50px,15px);
+    transform: translate(-210px,15px);
   }
   .beartooth-logo{
     position: relative;
-    transform: translate(-165px,20px);
+    transform: translate(-190px,20px);
   }
 }

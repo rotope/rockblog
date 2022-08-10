@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
 body{
     margin: 0;
   }
@@ -54,9 +55,11 @@ body{
       transition: .4s;
   }
   .titulo-grupos{
+    font-family: 'Metal Mania', cursive;
     margin: auto;
   }
   .titulo-grupos h1{
+    font-family: 'Metal Mania', cursive;
     background-image: linear-gradient(#865825, #f9d190); 
     margin: auto;
     text-align: center;
@@ -96,7 +99,7 @@ body{
   .slipknot-logo{
     height: 6em;
     position: fixed;
-    top: 70%;
+    top: 74%;
     left: 25%;
   }
   .systemofadown-logo{
@@ -204,54 +207,54 @@ body{
     }
     .sabaton-logo{
       position: relative;
-      transform: translate(-80px,5px);
+      transform: translate(-95px,5px);
     }
     .powerwolf-logo{
       position: relative;
-      transform: translate(-10px,5px);
+      transform: translate(-25px,5px);
     }
     .archenemy-logo{
       position: relative;
-      transform: translate(20px,5px);
+      transform: translate(-5px,5px);
     }
     .rammstein-logo{
       position: relative;
-      transform: translate(-120px,10px);
+      transform: translate(-138px,10px);
     }
     .whispered-logo{
       position: relative;
-      transform: translate(-100px,5px);
+      transform: translate(-105px,5px);
     }
     .warcry-logo{
       position: relative;
-      transform: translate(-200px,5px);
+      transform: translate(-210px,5px);
     }
     .slipknot-logo{
       position: relative;
-      transform: translate(20px,5px);
+      transform: translate(0px,5px);
     }
     .korn-logo{
       position: relative;
-      transform: translate(90px,5px);
+      transform: translate(80px,5px);
     }
     .systemofadown-logo{
       position: relative;
-      transform: translate(-10px,1px);
+      transform: translate(-25px,1px);
     }
     .muse-logo{
       position: relative;
-      transform: translate(-80px,5px);
+      transform: translate(-95px,5px);
     }
     .saratoga-logo{
       position: relative;
-      transform: translate(-180px,5px);
+      transform: translate(-195px,5px);
     }
     .threedaysgrace-logo{
       position: relative;
-      transform: translate(50px,15px);
+      transform: translate(30px,15px);
     }
     .beartooth-logo{
       position: relative;
-      transform: translate(-165px,20px);
+      transform: translate(-185px,20px);
     }
   }
